@@ -1,0 +1,19 @@
+{
+  "name": "infrastructure",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/aws-lambda": "8.10.149",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "bun run --watch index.ts"
+  },
+  "type": "module",
+  "dependencies": {
+    "sst": "3.16.0"
+  }
+}

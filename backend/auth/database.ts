@@ -1,6 +1,5 @@
 import { SQLDatabase } from "encore.dev/storage/sqldb";
 import { PrismaClient } from "@prisma/client";
-import { url } from "inspector";
 
 const DB = new SQLDatabase(
   "auth",
